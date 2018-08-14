@@ -2,11 +2,18 @@
 <!--div style="text-align:center"-->
 <h1>{{title}}</h1>
 
-
+<nav>
+  <div>
+    <a routerLink="/dashboard">Dashboard</a>
+  </div>
+  <div>
+    <a routerLink="/heroes">Heroes</a>
+  </div>
+</nav>
 
 <h2>Batman is the best DC hero</h2>
 
-<app-heroes></app-heroes>
+<router-outlet></router-outlet>
 <app-messages></app-messages>
 
 <h4> tester tester</h4>
